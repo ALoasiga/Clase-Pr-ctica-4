@@ -1,0 +1,48 @@
+@mixin paddings ($left, $right, $top, $bottom){
+    padding-left: $left;
+    padding-right: $right;
+    padding-top: $top;
+    padding-bottom: $bottom ;
+}
+
+@mixin margin ($left, $right, $top, $bottom){
+    margin-left: $left;
+    margin-right: $right;
+    margin-top: $top;
+    margin-bottom: $bottom ;
+}
+
+header {
+    @include margin (0px, 0px, 0px, 80px);
+
+    .entrada{
+        @include margin (8%, 0%, 3%, 0%);
+        @include paddings (2%, 0%, 0%, 0%);
+        gap:10px;
+        display: grid;
+        width: 80% ;
+        height: 10%;
+        grid-template-areas: "img letra";
+        grid-template-columns: 55% 45%;
+        justify-content: center;
+        
+        figure{
+            grid-area: img;
+            padding-top: 2%;
+            
+           
+        }
+        div{
+            grid-area: letra;
+            text-align: center;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           background-color: $myBgColorLight;
+        }
+    }
+
+}
+
+
