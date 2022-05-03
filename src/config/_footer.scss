@@ -12,11 +12,12 @@ footer{
     div:nth-child(1){
         grid-area: secc1;
     }
-    div:nth-child(2){
-        grid-area: secc2;
+        div:nth-child(2){
+            grid-area: secc2;
+        }
     }
-    }
-
-
-
+i{
+    @include padding(10px)
+}
+    
 }

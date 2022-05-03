@@ -15,14 +15,11 @@
 .navbar{
 @include margin (0px, 0px, 0px, 80px);
 
-img{
-    max-width: 190px;
-    max-height: 70px;
+    img{
+        max-width: 180px;
+        max-height: 70px;
+    }
 }
-
-}
-
-
 
 main .container-fluid{
     display: flex;

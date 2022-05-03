@@ -4,10 +4,12 @@ main{
     
     #servicios{
         @include margin (0px, 0px, 0px, 80px);
+
         .row div{
             display: flex;
             flex-direction: column;
             align-items: center;
+            background-color: $myBgColorLight;
             transition: ease-in-out 1s;
             
                 &:hover{
@@ -15,14 +17,17 @@ main{
                 }
 
             i{
-                font-size: 40px;
+                font-size: 35px;
+                @include padding (10px);
             }
         }
     }
 
     #clientes{
         .row div{
-            
+            background-color: $myBgColorLight;
+            @include padding (22px);
+
             img{
                 box-shadow: $boxshadow ;
                 transition: ease-in-out 1s;

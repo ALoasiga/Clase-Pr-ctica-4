@@ -5,7 +5,7 @@
         grid-template-areas: "img img"
                             "letra letra";
         grid-template-columns: 100%;
-        grid-template-rows: 56% 44%;
+        grid-template-rows: 54% 50%;
         width: 90% ;
         @include paddings (1%, 1%, 0%, 2%);
         
@@ -18,10 +18,6 @@
         }
         div{
             grid-area: letra;
-            display: flex;
-           flex-direction: column;
-           justify-content: center;
-           align-items: center;
             width: 100%;
         }
     }
@@ -35,14 +31,13 @@
                             "secc2 secc2";
         grid-template-columns: 40%;
         grid-template-rows: 50% 50%;
-        width: 90% ;
+        width: 100% ;
         gap:10px;
         @include paddings (1%, 1%, 0%, 2%);
         
         div:nth-child(1){
             grid-area: secc1;
             
-           
         }
         div:nth-child(2){
             grid-area: secc2;

@@ -29,18 +29,17 @@ header {
         figure{
             grid-area: img;
             padding-top: 2%;
-            
            
         }
-        
+
         div{
             grid-area: letra;
             text-align: center;
-           display: flex;
-           flex-direction: column;
-           justify-content: center;
-           align-items: center;
-           background-color: $myBgColorLight;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $myBgColorLight;
         }
     }
 
