@@ -2,23 +2,19 @@ main{
     @include margin (0px, 0px, 0px, 90px);
     
     #servicios{
-        @include margin (0px, 0px, 0px, 90px);
+        @include margin (0px, 0px, 0px, 85px);
 
         .row div{
             display: flex;
             flex-direction: column;
             align-items: center;
             background-color: $myBgColorLight;
-            transition: ease-in-out 1s;
+            transition: ease-in-out 1.5s;
             
                 &:hover{
                     transform: scale(1.1);
                 }
 
-            i{
-                font-size: 35px;
-                @include padding (10px);
-            }
         }
     }
 
@@ -29,10 +25,10 @@ main{
 
             img{
                 box-shadow: $boxshadow ;
-                transition: ease-in-out 1s;
+                transition: ease-in-out 1.5s;
                 filter: grayscale(60%);
                 &:hover{
-                    transform: scale(1.1);
+                    transform: scale(1.2);
                     filter: brigthness(90%);
                     filter: grayscale(0%);
                 }

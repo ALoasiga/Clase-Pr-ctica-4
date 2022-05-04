@@ -31,7 +31,7 @@
   --bs-primary: #6ceee7;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
-  --bs-info: #c6b9ff;
+  --bs-info: #ded7fd;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
@@ -39,7 +39,7 @@
   --bs-primary-rgb: 108, 238, 231;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 198, 185, 255;
+  --bs-info-rgb: 222, 215, 253;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
@@ -2127,15 +2127,15 @@ progress {
 }
 
 .table-info {
-  --bs-table-bg: #f4f1ff;
-  --bs-table-striped-bg: #e8e5f2;
+  --bs-table-bg: #f8f7ff;
+  --bs-table-striped-bg: #ecebf2;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dcd9e6;
+  --bs-table-active-bg: #dfdee6;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e2dfec;
+  --bs-table-hover-bg: #e5e4ec;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #dcd9e6;
+  border-color: #dfdee6;
 }
 
 .table-warning {
@@ -3335,43 +3335,43 @@ fieldset:disabled .btn {
 
 .btn-info {
   color: #000;
-  background-color: #c6b9ff;
-  border-color: #c6b9ff;
+  background-color: #ded7fd;
+  border-color: #ded7fd;
 }
 
 .btn-info:hover {
   color: #000;
-  background-color: #cfc4ff;
-  border-color: #ccc0ff;
+  background-color: #e3ddfd;
+  border-color: #e1dbfd;
 }
 
 .btn-check:focus + .btn-info, .btn-info:focus {
   color: #000;
-  background-color: #cfc4ff;
-  border-color: #ccc0ff;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(168, 157, 217, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(168, 157, 217, 0.5);
+  background-color: #e3ddfd;
+  border-color: #e1dbfd;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(189, 183, 215, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(189, 183, 215, 0.5);
 }
 
 .btn-check:checked + .btn-info,
 .btn-check:active + .btn-info, .btn-info:active, .btn-info.active,
 .show > .btn-info.dropdown-toggle {
   color: #000;
-  background-color: #d1c7ff;
-  border-color: #ccc0ff;
+  background-color: #e5dffd;
+  border-color: #e1dbfd;
 }
 
 .btn-check:checked + .btn-info:focus,
 .btn-check:active + .btn-info:focus, .btn-info:active:focus, .btn-info.active:focus,
 .show > .btn-info.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(168, 157, 217, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(168, 157, 217, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(189, 183, 215, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(189, 183, 215, 0.5);
 }
 
 .btn-info:disabled, .btn-info.disabled {
   color: #000;
-  background-color: #c6b9ff;
-  border-color: #c6b9ff;
+  background-color: #ded7fd;
+  border-color: #ded7fd;
 }
 
 .btn-warning {
@@ -3641,36 +3641,36 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-info {
-  color: #c6b9ff;
-  border-color: #c6b9ff;
+  color: #ded7fd;
+  border-color: #ded7fd;
 }
 
 .btn-outline-info:hover {
   color: #000;
-  background-color: #c6b9ff;
-  border-color: #c6b9ff;
+  background-color: #ded7fd;
+  border-color: #ded7fd;
 }
 
 .btn-check:focus + .btn-outline-info, .btn-outline-info:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(198, 185, 255, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(198, 185, 255, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(222, 215, 253, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(222, 215, 253, 0.5);
 }
 
 .btn-check:checked + .btn-outline-info,
 .btn-check:active + .btn-outline-info, .btn-outline-info:active, .btn-outline-info.active, .btn-outline-info.dropdown-toggle.show {
   color: #000;
-  background-color: #c6b9ff;
-  border-color: #c6b9ff;
+  background-color: #ded7fd;
+  border-color: #ded7fd;
 }
 
 .btn-check:checked + .btn-outline-info:focus,
 .btn-check:active + .btn-outline-info:focus, .btn-outline-info:active:focus, .btn-outline-info.active:focus, .btn-outline-info.dropdown-toggle.show:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(198, 185, 255, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(198, 185, 255, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(222, 215, 253, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(222, 215, 253, 0.5);
 }
 
 .btn-outline-info:disabled, .btn-outline-info.disabled {
-  color: #c6b9ff;
+  color: #ded7fd;
   background-color: transparent;
 }
 
@@ -5637,13 +5637,13 @@ fieldset:disabled .btn {
 }
 
 .alert-info {
-  color: #4f4a66;
-  background-color: #f4f1ff;
-  border-color: #eeeaff;
+  color: #595665;
+  background-color: #f8f7ff;
+  border-color: #f5f3fe;
 }
 
 .alert-info .alert-link {
-  color: #3f3b52;
+  color: #474551;
 }
 
 .alert-warning {
@@ -6068,19 +6068,19 @@ fieldset:disabled .btn {
 }
 
 .list-group-item-info {
-  color: #4f4a66;
-  background-color: #f4f1ff;
+  color: #595665;
+  background-color: #f8f7ff;
 }
 
 .list-group-item-info.list-group-item-action:hover, .list-group-item-info.list-group-item-action:focus {
-  color: #4f4a66;
-  background-color: #dcd9e6;
+  color: #595665;
+  background-color: #dfdee6;
 }
 
 .list-group-item-info.list-group-item-action.active {
   color: #fff;
-  background-color: #4f4a66;
-  border-color: #4f4a66;
+  background-color: #595665;
+  border-color: #595665;
 }
 
 .list-group-item-warning {
@@ -7383,11 +7383,11 @@ fieldset:disabled .btn {
 }
 
 .link-info {
-  color: #c6b9ff;
+  color: #ded7fd;
 }
 
 .link-info:hover, .link-info:focus {
-  color: #d1c7ff;
+  color: #e5dffd;
 }
 
 .link-warning {
@@ -7869,7 +7869,7 @@ fieldset:disabled .btn {
 }
 
 .border-info {
-  border-color: #c6b9ff !important;
+  border-color: #ded7fd !important;
 }
 
 .border-warning {
@@ -11994,7 +11994,7 @@ main #servicios {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
-  margin-bottom: 90px;
+  margin-bottom: 85px;
 }
 
 main #servicios .row div {
@@ -12009,18 +12009,13 @@ main #servicios .row div {
       -ms-flex-align: center;
           align-items: center;
   background-color: #967ffc;
-  -webkit-transition: ease-in-out 1s;
-  transition: ease-in-out 1s;
+  -webkit-transition: ease-in-out 1.5s;
+  transition: ease-in-out 1.5s;
 }
 
 main #servicios .row div:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-}
-
-main #servicios .row div i {
-  font-size: 35px;
-  padding: 0.625rem;
 }
 
 main #clientes .row div {
@@ -12047,15 +12042,15 @@ main #clientes .row div {
 main #clientes .row div img {
   -webkit-box-shadow: 9px 7px 7px 0px #23252b;
           box-shadow: 9px 7px 7px 0px #23252b;
-  -webkit-transition: ease-in-out 1s;
-  transition: ease-in-out 1s;
+  -webkit-transition: ease-in-out 1.5s;
+  transition: ease-in-out 1.5s;
   -webkit-filter: grayscale(60%);
           filter: grayscale(60%);
 }
 
 main #clientes .row div img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   -webkit-filter: brigthness(90%);
           filter: brigthness(90%);
   -webkit-filter: grayscale(0%);
@@ -12063,7 +12058,7 @@ main #clientes .row div img:hover {
 }
 
 header {
-  margin-left: 0px;
+  margin-left: 5px;
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 80px;
@@ -12072,20 +12067,20 @@ header {
 header .Inicio {
   margin-left: 8%;
   margin-right: 0%;
-  margin-top: 3%;
+  margin-top: 5%;
   margin-bottom: 0%;
   padding-left: 2%;
   padding-right: 0%;
   padding-top: 0%;
   padding-bottom: 0%;
-  gap: 10px;
+  gap: 15px;
   display: -ms-grid;
   display: grid;
-  width: 80%;
-  height: 10%;
-      grid-template-areas: "img letra";
-  -ms-grid-columns: 55% 45%;
-      grid-template-columns: 55% 45%;
+  width: 81%;
+  height: 5%;
+      grid-template-areas: "img contacto";
+  -ms-grid-columns: 58% 44%;
+      grid-template-columns: 58% 44%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -12106,7 +12101,7 @@ header .Inicio figure {
 header .Inicio div {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
-  grid-area: letra;
+  grid-area: contacto;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12141,22 +12136,22 @@ footer section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 50px;
-      grid-template-areas: "secc1 secc2" "secc1 secc2";
+  gap: 8px;
+      grid-template-areas: "section1 section1" "section2 section2";
 }
 
 footer section div:nth-child(1) {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
   -ms-grid-column: 1;
-  grid-area: secc1;
+  -ms-grid-column-span: 2;
+  grid-area: section1;
 }
 
 footer section div:nth-child(2) {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  grid-area: secc2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: section2;
 }
 
 footer i {
@@ -12172,13 +12167,13 @@ body {
 }
 
 .Inicio {
-  background-color: #c6b9ff;
+  background-color: #ded7fd;
 }
 
 .texto-txt1 {
   font-size: 40px;
   font-family: "Koulen", cursive;
-  color: #c6b9ff;
+  color: #ded7fd;
 }
 
 .texto-txt2 {
@@ -12193,20 +12188,20 @@ body {
   color: #6ceee7;
 }
 
-@media all and (max-width: 660px) {
+@media all and (max-width: 644px) {
   header .Inicio {
     display: -ms-grid;
     display: grid;
         grid-template-areas: "img img" "contacto contacto";
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-    -ms-grid-rows: 54% 50%;
-        grid-template-rows: 54% 50%;
-    width: 90%;
+    -ms-grid-columns: 89%;
+        grid-template-columns: 89%;
+    -ms-grid-rows: 45% 51%;
+        grid-template-rows: 45% 51%;
+    width: 85%;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 0%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
   }
   header .Inicio figure {
     -ms-grid-row: 1;
@@ -12216,7 +12211,7 @@ body {
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 0%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
     padding-top: 2%;
     width: 100%;
   }
@@ -12229,21 +12224,21 @@ body {
   }
 }
 
-@media all and (max-width: 660px) {
+@media all and (max-width: 644px) {
   footer section {
     display: -ms-grid;
     display: grid;
         grid-template-areas: "section1 section1" "section2 section2";
     -ms-grid-columns: 40%;
         grid-template-columns: 40%;
-    -ms-grid-rows: 55% 55%;
-        grid-template-rows: 55% 55%;
+    -ms-grid-rows: 50% 50%;
+        grid-template-rows: 50% 50%;
     width: 100%;
-    gap: 15px;
+    gap: 9px;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 0%;
-    padding-bottom: 3%;
+    padding-top: 15%;
+    padding-bottom: 2%;
   }
   footer section div:nth-child(1) {
     -ms-grid-row: 1;

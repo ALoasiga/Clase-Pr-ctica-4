@@ -13,17 +13,17 @@
 }
 
 header {
-    @include margin (0px, 0px, 0px, 80px);
+    @include margin (5px, 0px, 0px, 80px);
 
     .Inicio{
-        @include margin (8%, 0%, 3%, 0%);
+        @include margin (8%, 0%, 5%, 0%);
         @include paddings (2%, 0%, 0%, 0%);
-        gap:10px;
+        gap:15px;
         display: grid;
-        width: 80% ;
-        height: 10%;
-        grid-template-areas: "img letra";
-        grid-template-columns: 55% 45%;
+        width: 81% ;
+        height: 5%;
+        grid-template-areas: "img contacto";
+        grid-template-columns: 58% 44%;
         justify-content: center;
 
         i{
@@ -37,7 +37,7 @@ header {
         }
 
         div{
-            grid-area: letra;
+            grid-area: contacto;
             text-align: center;
             display: flex;
             flex-direction: column;

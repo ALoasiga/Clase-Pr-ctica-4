@@ -1,17 +1,17 @@
-@media all and (max-width:660px){
+@media all and (max-width:644px){
     
     header .Inicio{
         display: grid;
         grid-template-areas: "img img"
                             "contacto contacto";
-        grid-template-columns: 100%;
-        grid-template-rows: 54% 50%;
-        width: 90% ;
-        @include paddings (1%, 1%, 0%, 3%);
+        grid-template-columns: 89%;
+        grid-template-rows: 45% 51%;
+        width: 85% ;
+        @include paddings (1%, 1%, 0%, 1%);
         
         figure{
             grid-area: img;
-            @include paddings (1%, 1%, 0%, 3%);
+            @include paddings (1%, 1%, 0%, 1%);
             padding-top: 2%;
             width: 100%;
         }
@@ -23,17 +23,17 @@
     }
 }
 
-@media all and (max-width:660px){
+@media all and (max-width:644px){
     
     footer section{
         display: grid;
         grid-template-areas: "section1 section1"
                             "section2 section2";
         grid-template-columns: 40%;
-        grid-template-rows: 55% 55%;
+        grid-template-rows: 50% 50%;
         width: 100% ;
-        gap:15px;
-        @include paddings (1%, 1%, 0%, 3%);
+        gap:9px;
+        @include paddings (1%, 1%, 15%, 2%);
         
         div:nth-child(1){
             grid-area: section1;
