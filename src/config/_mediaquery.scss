@@ -1,23 +1,23 @@
 @media all and (max-width:660px){
     
-    header .entrada{
+    header .Inicio{
         display: grid;
         grid-template-areas: "img img"
-                            "letra letra";
+                            "contacto contacto";
         grid-template-columns: 100%;
         grid-template-rows: 54% 50%;
         width: 90% ;
-        @include paddings (1%, 1%, 0%, 2%);
+        @include paddings (1%, 1%, 0%, 3%);
         
         figure{
             grid-area: img;
-            @include paddings (1%, 1%, 0%, 2%);
+            @include paddings (1%, 1%, 0%, 3%);
             padding-top: 2%;
             width: 100%;
-            
         }
+
         div{
-            grid-area: letra;
+            grid-area: contacto;
             width: 100%;
         }
     }
@@ -27,20 +27,19 @@
     
     footer section{
         display: grid;
-        grid-template-areas: "secc1 secc1"
-                            "secc2 secc2";
+        grid-template-areas: "section1 section1"
+                            "section2 section2";
         grid-template-columns: 40%;
-        grid-template-rows: 50% 50%;
+        grid-template-rows: 55% 55%;
         width: 100% ;
-        gap:10px;
-        @include paddings (1%, 1%, 0%, 2%);
+        gap:15px;
+        @include paddings (1%, 1%, 0%, 3%);
         
         div:nth-child(1){
-            grid-area: secc1;
-            
+            grid-area: section1;
         }
         div:nth-child(2){
-            grid-area: secc2;
+            grid-area: section2;
         }
     }
 }

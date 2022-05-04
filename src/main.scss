@@ -1,12 +1,12 @@
-//agregar las variables del proyecto
+//Variables
+
 @import "shared/variables";
 
-// personalizar boostrap
+//Bootstrap
+
 @import "shared/mybootstrap";
 
-
-
-
+//Config
 
 @import "config/navbar" ;
 
@@ -20,21 +20,11 @@
 
 @import "config/texto" ;
 
-@import "shared/mixin" ;
-
-
 @import "config/mediaquery" ;
 
 
+//Fonts
 
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Koulen&family=Mukta&display=swap');
 
 

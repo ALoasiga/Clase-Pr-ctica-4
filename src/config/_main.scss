@@ -1,9 +1,8 @@
-
 main{
-    @include margin (0px, 0px, 0px, 80px);
+    @include margin (0px, 0px, 0px, 90px);
     
     #servicios{
-        @include margin (0px, 0px, 0px, 80px);
+        @include margin (0px, 0px, 0px, 90px);
 
         .row div{
             display: flex;
@@ -31,9 +30,11 @@ main{
             img{
                 box-shadow: $boxshadow ;
                 transition: ease-in-out 1s;
+                filter: grayscale(60%);
                 &:hover{
                     transform: scale(1.1);
-                    filter: brightness(80%);
+                    filter: brigthness(90%);
+                    filter: grayscale(0%);
                 }
             }
 

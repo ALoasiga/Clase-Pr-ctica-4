@@ -1,4 +1,4 @@
-//2.1 reasigna variables boostrap
+//variables boostrap
 $primary: $myPrimary;
 $secundary: $mysecundary ;
 $info: $myinfo ;
@@ -6,5 +6,5 @@ $dark: $mydark ;
 
 $thumbnail-bg: $myBgColorLight ;
 
-//2.2 agrega libreria prinicpal de boostrap
+//ibreria principal de bootstrap
 @import "../bootstrap/bootstrap.scss";

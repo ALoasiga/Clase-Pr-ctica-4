@@ -16,8 +16,8 @@ footer{
             grid-area: secc2;
         }
     }
-i{
-    @include padding(10px)
-}
-    
+
+    i{
+        @include padding(10px)
+    }  
 }
