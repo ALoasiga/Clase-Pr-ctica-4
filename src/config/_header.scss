@@ -16,28 +16,15 @@ header {
     @include margin (5px, 0px, 0px, 80px);
 
     .Inicio{
-        @include margin (8%, 0%, 5%, 0%);
-        @include paddings (2%, 0%, 0%, 0%);
-        gap:15px;
-        display: grid;
-        width: 81% ;
-        height: 5%;
-        grid-template-areas: "img contacto";
-        grid-template-columns: 58% 44%;
+        @include margin (29%, 29%, 5%, 0%);
         justify-content: center;
 
         i{
             font-size: 15px;
             @include padding (10px);  
         }
-        
-        figure{
-            grid-area: img;
-            padding-top: 2%;
-        }
 
         div{
-            grid-area: contacto;
             text-align: center;
             display: flex;
             flex-direction: column;
